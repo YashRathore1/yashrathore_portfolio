@@ -1,3 +1,3 @@
-# My Portfolio
+# my portfolio
 
-Hey! This is my personal portfolio
+Hey! This is my website to showcase my Portfolio.
