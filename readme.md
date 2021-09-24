@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio</title>
-</head>
-<body>
-    Hi! My name is Yash Rathore, This is my first project.
-</body>
-</html>
+# My Portfolio
+
+Hey! This is my personal portfolio
