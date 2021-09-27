@@ -1,116 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
-
 <body>
-    <h1>Welcome to Yash Rathore's component library</h1>
-    <p>I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.
-    </p>
-    <hr>
-
-    <h2>@typography</h2>
-    <h1>This is the biggest heading.</h1>
-    <h2>This is the second biggest heading.</h2>
-    <p>This is the normal or default text. This is free flowing and will wrap at the end like a paragraph.</p>
-    <small>This is relatively smaller than the default size.</small>
-
-    <hr>
-    <h2>@Container</h2>
-
-    <h3>Fluid Container</h3>
-    <div>This is a fluid container and it will go till the end of page.</div>
-
-    <h3>Center Container</h3>
-    <div>This is a centered container and it will go till the specific width.</div>
-
-    <hr>
-    <h2>@Links</h2>
-
-    <a href="_">Primary</a>
-    <a href="_">Secondary</a>
-
-    <hr>
-    <h2>@Lists</h2>
-    <h3>Ordered List</h3>
-    <ol>
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
-    </ol>
-
-    <h3>Unordered Inline List</h3>
-    <ol>
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
-    </ol>
-
-    <h3>Reverse ordered list.</h3>
-    <ol>
-        <li>Milk</li>
-        <li>Eggs</li>
-        <li>break</li>
-    </ol>
-    <hr>
-
-    <h2>@Nav</h2>
-    <nav>
-        <div>Brand Name</div>
-        <ul>
-            <li>
-                <a href="_">Home</a>
+    <nav class="navigation">
+        <div class="brand">Yash Rathore</div>
+        <ul class="non-bullet text-align">
+            <li class="link">
+                <a class="delete-style link-active" href="/">Home</a>
             </li>
-            <li>
-                <a href="_">Products</a>
+            <li class="link ">
+                <a class="delete-style" href="_">Projects</a>
             </li>
-            <li>
-                <a href="_">About</a>
+            <li class="link ">
+                <a class="delete-style" href="_">Blogs</a>
             </li>
         </ul>
     </nav>
-    <hr>
-
-    <header>
-        <img
-            src="https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1506&q=80" />
-        <h1>Heading inside Hero</h1>
+    
+    <header class="hero">
+        <img class="hero-img"
+            src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" />
+        <h1 class="hero-heading">Yash Rathore <span class="regular-mark"> | </span> <span class="text-inverted">The Web Developer </span></h1>
     </header>
-    <hr>
-
-    <h2>Section</h2>
-
-    <section>
-        <h3>White Section</h3>
-        <p>This will have white background.</p>
+    <hr>        
+    
+    <section class="off-white-section">
+        <h3  class="white-section-heading">About Me</h3>
+        <p class="text-align-center">Hey! I am currentlty a UG second year <strong> Management Student</strong> from AIMSR Indore, (M.P.). I am Intrested and Passionate for Web Devlopment. Currently I'm working on some projects under Mark-15 for neog.camp. Please see my Projects and do read my blogs.</p>
     </section>
 
-    <section>
-        <h3>Off White Section</h3>
-        <p>This will have gray background.</p>
-    </section>
+    <section class="white-section">
+        <h3  class="white-section-heading">Technologies</h3>
+        <p class="text-align-center">Currently, I am familiar with <STRONG> Node.JS, HTML5, CSS3, Web Hosting </STRONG> etc. Also I am familiar with the tools such as <strong> VS CODE, GIT, GITHUB.  </strong>     </p>
 
-    <hr>
-    <h2>@Footer</h2>
-    <footer>
-        <div>Some small headings inside footer.</div>
-        <ul>
-            <li>SocialOne</li>
-            <li>SocialTwo</li>
-            <li>SocialThree</li>
-        </ul>
-    </footer>
+        </section>
 
+        <section class="off-white-section">
+            <h3  class="white-section-heading">Projects</h3>
+            <p class="text-align-center">Here are some of my Projects that I've made during the journey of learning Web Development. I hope you will like them.</p><br>
+            <div class="align-primary-link">
+            <a class="primary-link" href="_"> View Projects </a></div>
 
+        </section>
 
+        <section class="white-section">
+            <h3  class="white-section-heading">Blogs</h3>
+            <p class="text-align-center"> I am writing some intresting Technical and Non-Technical Blogs which I would like to showcase here on my website. I hope you'll like them.</p> <br>
+            <div class="align-primary-link">
+                <a class="secondary-link" href="_"> View Blogs</a></div>
+            </section>
 
+            <hr>
+            <footer class="footer">
+                <div class="footer-heading logo-align">&nbsp; &nbsp;  Connect me on:</div>
+                <ul>
+                    <li class="non-bullet-inline" ><a href="https://twitter.com/YashRathore__"><img class="logo-size" src="https://logos-world.net/wp-content/uploads/2020/04/Twitter-Logo.png"></a></li>
+                    <li class="non-bullet-inline"><a href="https://www.linkedin.com/in/yash-rathore-15667820a/"><img class="logo-size" src="https://cdn-icons-png.flaticon.com/512/174/174857.png"></a></li>
+                    <li class="non-bullet-inline"><a href="https://github.com/YashRathore1"><img class="logo-size" src="https://cdn-icons-png.flaticon.com/512/25/25231.png"></a></li>
+                </ul>
+            </footer>
+        
+        
 
-    <!-- <div style="height: 30vh";></div> -->
 </body>
-
 </html>
+

@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    word-spacing: 3px;
+}
+
+:root {
+    --primary-color: #D83B01;
+    --highlighted-text: #374151; 
+}
+
+
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    margin-left: 1px;
+    border-bottom-left-radius: 10px ;
+}
+
+.brand {
+    font-size: 35px;
+    padding-top: 30px;
+    padding-left: 30px;
+
+}
+.navigation .non-bullet{
+    list-style: none;
+ }
+
+.link {
+    display: inline;
+    padding: 0rem 1.5rem;
+    font-size: 20px;
+}
+
+.link-active{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.text-align {
+    text-align: right;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.delete-style{
+    text-decoration: none;
+    color:white;
+}
+
+.container-center {
+max-width: 600px ;
+margin: auto;
+}
+
+.primary-link{
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.align-primary-link{
+    margin: auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.secondary-link{
+    color: var(--primary-color);
+    border: 1px solid;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+hr {
+    padding: 1rem 1rem;
+}
+
+.non-marked{
+    list-style: none;
+}
+
+.non-bullet-inline {
+    display: inline;
+    padding: 0rem 1rem
+}
+
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+    border-radius: 100px;
+    box-shadow: 2px 2px 2px 2px #E5E7EB
+    ;
+}
+
+.text-inverted{
+    color: var(--primary-color) ;
+}
+
+.regular-mark{
+    color: black;
+}
+
+.hero .hero-heading{
+    color: var(--highlighted-text);
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.white-section{
+    margin: auto;
+    padding: 1rem 2rem;
+    padding-bottom: 3rem;
+}
+
+.off-white-section{
+    margin: auto;
+    padding: 1rem 2rem;
+    background-color: #E5E7EB;
+    padding-bottom: 3rem;
+}
+
+.text-align-center {
+    max-width: 600px;
+    margin: auto    
+}
+
+.white-section-heading{
+    font-size: 30px;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.footer{
+    background-color: var(--primary-color);
+    border-top-right-radius: 10px;
+    padding: 2rem 2rem;
+    color: white;
+    text-align: center;
+}
+
+.footer-heading{
+    font-size: 30px;
+}
+
+.logo-size{
+    max-height:40px;
+}
+
