@@ -80,7 +80,7 @@ margin: auto;
 }
 
 hr {
-    padding: 1rem 1rem;
+    padding-bottom: 20px;
 }
 
 .non-marked{
@@ -97,7 +97,7 @@ hr {
 }
 
 .hero .hero-img{
-    max-width: 1000px;
+    max-width: 700px;
     display: block;
     margin: auto;
     border-radius: 100px;
@@ -159,3 +159,15 @@ hr {
     max-height:40px;
 }
 
+.link-button{
+    text-align: center;
+}
+
+.white-section-list{
+    font-size: 30px;
+    text-align: center;
+    color: var(--primary-color);
+    padding: 1rem 1rem;
+    
+
+}
