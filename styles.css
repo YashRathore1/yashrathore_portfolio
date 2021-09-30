@@ -149,6 +149,7 @@ hr {
     padding: 2rem 2rem;
     color: white;
     text-align: center;
+    display: block;
 }
 
 .footer-heading{
